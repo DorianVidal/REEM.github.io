@@ -1,7 +1,7 @@
 h2 {
     text-align: center;
     color: black;
-    font-size: 10em;
+    font-size: 6em;
     background-image: url(fusee.jpg);
 }
 
@@ -12,8 +12,28 @@ body {
 
 h4 {
     text-align: center;
-    color: black;
+    color: white;
     font-size: 2em;
     padding-left: 20%;
-    padding-right: 20%
+    padding-right: 20%;
+}
+
+#pres_txt {
+    background-image: url("img/base.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+#concept {
+    background-image: url("img/fusee.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10em;
+    padding-bottom: 10em;
 }
