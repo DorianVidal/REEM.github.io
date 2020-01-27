@@ -31,10 +31,40 @@
 
         <h2>Le concept...</h2>
         <div id="concept">
-            <h4>REEM est un jeu en vue de 3/4, de type RTS. Vous aurez donc a interagir avec vos REEM pour recolter vos ressources. Vous aurez a construire vos REEM dans le hangar de la base. Une fois construit il vous faudra affecter à chacun des vos agents
+            <h4>REEM est un jeu en vue de 3/4, de type RTS. Vous aurez donc a interagir avec vos REEM pour recolter vos ressources. Vous aurez a construire vos REEM dans le hangar de la base. Une fois construit il vous faudra affecter à chacun de vos agents
                 une tâches à réaliser.
             </h4>
         </div>
 
+        <h2>Le but ...</h2>
+        <div id="but">
+            <h4>Le but de ce jeu est de construire la fusée et de s'envoler de cet planete avec une vie local etrange, pour cela i vous faudra envoyer vos agents a la recherche de ressources permettant de reparer le vaisseaux spacial
+
+            </h4>
+            <div class="w3-content w3-section" style="max-width:500px">
+
+                <img class="mySlides w3-animate-fading" src="img/robot3.png" style="width:100%">
+                <img class="mySlides w3-animate-fading" src="img/robot.png" style="width:100%">
+                <img class="mySlides w3-animate-fading" src="img/robot2.png" style="width:100%">
+
+            </div>
         </div>
+
+
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(carousel, 1000);
+            }
+        </script>
     </body>
