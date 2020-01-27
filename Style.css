@@ -2,10 +2,11 @@ h2 {
     text-align: center;
     color: whitesmoke;
     font-size: 10em;
+    background-image: url(fusee.jpg);
 }
 
 body {
-    background-color: rgb(34, 66, 124);
+    background-color: rgb(15, 5, 107);
 }
 
 h4 {
