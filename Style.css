@@ -1,7 +1,17 @@
-#slide1 {
-    background: url(Titre.ppg) center 0 no-repeat fixed;
- }
- 
- #slide2 {
-    background: url(Img1.jpg) center 0 no-repeat fixed;
- }
+h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 10em;
+}
+
+body {
+    background-color: rgb(34, 66, 124);
+}
+
+h4 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2em;
+    padding-left: 20%;
+    padding-right: 20%
+}
